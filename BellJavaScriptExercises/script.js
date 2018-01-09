@@ -19,7 +19,7 @@ alert(total);
 	
 	
 function e2() { 
-var n = prompt ("Do you want to play?", "type yes or no");
+var n = prompt ("Do you want to play?", "yes or no");
 var string = [];
 
 if (n === "yes") {
@@ -28,7 +28,7 @@ if (n === "yes") {
 	var y = string.push(prompt ("Enter a word",""));
 	
 	
-	var z = prompt("Do you want to play again?","");
+	var z = prompt("Do you want to play again?","yes or no");
 	
 	}while(z === "yes")
 		
@@ -40,7 +40,7 @@ if (n === "yes") {
 //exercise 3   
  
 function e3() { 
-var n = prompt ("Would you like to print your name?", "type yes or no");
+var n = prompt ("Would you like to print your name?", "yes or no");
 var string = []
 
 
@@ -50,7 +50,7 @@ if (n === "yes") {
  alert('Hello. My name is Adam');
 		
 while(n === "yes"){
-	var n = prompt ("Would you like to print your name?", "type yes or no");	
+	var n = prompt ("Would you like to print your name?", "yes or no");	
 	
 	if ( n === "no"){break;
 	}
