@@ -6,7 +6,7 @@
 
 
 
-a:hover, input:hover {
+a:hover {
   background: #B1ADAC;
   cursor: pointer; 
   transition: background .5s;  
@@ -32,8 +32,6 @@ header{
 h1, h2, p{
 clear: right;
 text-align: center;
-
-
 }
 
 ul, ol {
@@ -57,6 +55,16 @@ body {
 	
 }
 
+ textarea{
+    width:400px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+    
+}
+
+
 
 img {
 	width: 200px;
@@ -69,14 +77,15 @@ img {
 
 input[type=text]{
 
-	width: 200px;
+	width: 300px;
 	
 }
 
 
 form{
 	text-align: center;
-	border: 1px double black;	
+	border: 1px double black;
+	
 }
 
 .nav {
