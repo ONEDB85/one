@@ -1,0 +1,121 @@
+
+* {
+	background-color: hsla(155,75%,75%,0.1);
+    color: navy;
+}
+
+
+
+a:hover, input:hover {
+  background: #B1ADAC;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+
+header{
+	
+	text-align: center;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	font-family: 'Pinyon Script', cursive;
+	
+	position: absolute;
+	left: 47%;
+	
+  
+}
+
+h1, h2, p{
+clear: right;
+text-align: center;
+
+
+}
+
+ul, ol {
+    text-align: center;
+	list-style-position: inside;
+}
+
+
+body {
+	
+	font-family: 'Fredricka the Great', cursive;
+
+	
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 10px 10px;
+	box-shadow: 5px 5px 5px gray;
+	position: relative;
+	left: 35%;
+	
+	
+	
+	
+	
+   /* margin-left: auto;
+    margin-right: auto;
+	*/
+}
+
+input[type=text]{
+
+	width: 200px;
+	
+}
+
+
+form{
+	text-align: center;
+	border: 1px double black;	
+}
+
+.nav {
+	float: right;	
+}
+	
+	
+}
+
+@media screen and (min-width:768px) {
+ body, h1, h2, {
+ font-size: 1 rem;}
+}
+ 
+ 
+ @media screen and (max-width:900px) {
+ header{
+	 display: flex;
+	 position: relative;
+	 
+ }
+ }	 
+
+ @media screen and (min-width:768px) {
+ img{
+	 height: 70 px;
+	 width: 70 px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 float: left;
+	 
+ }
+ }
+ 
+ 
+ @media screen and (max-width:768px) {
+.nav {
+	float: left;	
+} 
+ }
+
+
