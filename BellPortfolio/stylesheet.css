@@ -6,14 +6,10 @@ Mobile Device CSS
     color: navy;
 }
 
-
-
 a:hover, input:hover {
   background: #B1ADAC;
-  
   transition: background .5s;  
 }
-
 
 header{
 	
@@ -26,11 +22,7 @@ header{
 	font-family: 'Pinyon Script', cursive;
 	font-size: 16px;
 	position: relative;
-	
-  
 }
-
-
 
 h1{
 clear: left;
@@ -44,7 +36,6 @@ p{
 clear: left;
 text-align: center;
 font-size: 13px;
-
 }
 
 
@@ -57,9 +48,7 @@ ul, ol {
 
 
 body {
-	
 	font-family: 'Fredricka the Great', cursive;
-	
 }
 
 
@@ -73,7 +62,6 @@ img {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	
 }
 
 
@@ -91,17 +79,12 @@ input[type=text]{
 }
 
 
-
 form{
 	text-align: center;
 	border: 1px double black;
 	font-size: 13px;	 
 	width: auto;
-	
 }
-
-
-
 
 button{
 	font-size: 10px;	
@@ -114,7 +97,6 @@ button{
 }
 
 nav {
-	
 	display: flex;
 	flex-direction: column;
 	float: left;	
@@ -126,117 +108,54 @@ nav {
 
 
 /*
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 Desktop CSS
 */
 
 @media screen and (min-width:768px) {
 
-* {
-	background-color: hsla(155,75%,75%,0.1);
-    color: navy;
-}
-
-
-
-a:hover {
-  background: #B1ADAC;
-  cursor: pointer; 
-  transition: background .5s;  
-}
-
-
-
-
-
 header{
-	
-	text-align: center;
 	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	font-family: 'Pinyon Script', cursive;
-	
 	position: absolute;
     left: 50%;
-    transform: translate(-50%, 0%); 
-
-
-
-	
-	
-	
-	
-  
+    transform: translate(-50%, 0%);   
 }
 
 h1{
 	font-size: 30px;
-	
 }
 
 p{
-	
 	font-size: 17px;
 }
 
 
 ul, ol {
-    text-align: center;
-	list-style-position: inside;
 	font-size: 17px;
-}
-
-
-body {
-	
-	font-family: 'Fredricka the Great', cursive;
-
-	
 }
 
 .images{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	
-	
+	justify-content: space-around;	
 }
 
  textarea{
     width:400px;
-    padding: 12px;
-    border: 1px solid black;
-    border-radius: 4px;
-	font-size: 13px;
-    
-    
+	font-size: 13px; 
 }
 
 input[type=text]{
-
 	width: 300px;
-	
-	
 }
 
 img {
 	width: 200px;
 	height: 200px;
 	margin: 10px;
-	border-radius: 10px 10px;
-	box-shadow: 5px 5px 5px gray;
-	position: relative;
 }
 
-
-
-
 form{
-	text-align: center;
-	border: 1px double black;
 	font-size: 16px;
 	margin: 0 auto; 
 	width: 550px;
@@ -244,17 +163,13 @@ form{
 
 
 button{
-	clear: border;
-	font-size: 13px;
-	
-	
+	font-size: 13px;	
 }
 
 
 .navbutton{
 	width: 63px;
 	height:20px;
-	border: 1px solid grey;
 }
 
 
@@ -262,8 +177,7 @@ nav {
 	display:inline;
 	float: right;	
 }
-	
-	
+		
 }
 
 
@@ -289,50 +203,6 @@ nav {
 
 
 
-/*
 
- body, h1, h2, {
- font-size: 12px;}
-}
-
- 
-
- header{
-	 
-	 
- }
- 	 
-
-{
- img{
-	 height: 70 px;
-	 width: 70 px;
-	 display: flex;
-	 flex-wrap: wrap;
-	 float: left;
-	 
- }
- }
-
-
- @media screen and (max-width:768px) {
- input[type=text], textarea{
-
-	width: 150px;
-	
-}
-
- }
-
-
-
-
- 
- 
- @media screen and (max-width:768px) {
-.nav {
-	float: left;	
-} 
- }
 
 
