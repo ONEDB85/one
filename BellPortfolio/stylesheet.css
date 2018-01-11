@@ -160,15 +160,20 @@ a:hover {
 
 header{
 	
-	
+	text-align: center;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
 	font-family: 'Pinyon Script', cursive;
+	
 	position: absolute;
-    left: 45.5%;
+    left: 50%;
+    transform: translate(-50%, 0%); 
+
+
+
 	
 	
 	
@@ -262,6 +267,7 @@ button{
 
 
 .nav {
+	display:inline;
 	float: right;	
 }
 	
