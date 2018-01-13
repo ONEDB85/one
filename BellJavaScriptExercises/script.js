@@ -2,21 +2,20 @@
 
 
 function e1(){
-var n = Number(prompt("Enter a number", ""));
- 
-for  (var total = 0; n > 0; n--){
-total = total + n;
-}	
+	var n = Number(prompt("Enter a number", ""));
+	var total = 0
+	 
+	for  (;n > 0; n--){
 
-console.log(total);
-alert(total);
+	total = total + n;
+	}	
 
+	console.log(total);
+	alert(total);
 }
 
 
 //exercise 2  
-
-
 	
 	
 function e2() { 
@@ -26,14 +25,11 @@ var string = [];
 if (n === "yes") {
 		
 	do{
-	var y = string.push(prompt ("Enter a word",""));
-	
-	
-	var z = prompt("Do you want to play again?","yes or no");
+		var y = string.push(prompt ("Enter a word",""));
+		var z = prompt("Do you want to play again?","yes or no");
 	
 	}while(z === "yes")
 		
-	
 	console.log(string.join(' '));
 	alert (string.join(' '));
 	}
@@ -47,7 +43,6 @@ var n = prompt ("Would you like to print your name?", "yes or no");
 var string = []
 
 
-
 if (n === "yes") {
 	
  alert('Hello. My name is Adam');
@@ -55,21 +50,16 @@ if (n === "yes") {
 while(n === "yes"){
 	var n = prompt ("Would you like to print your name?", "yes or no");	
 	
-	if ( n === "no"){break;
+	if ( n === "no"){
+		break;
 	}
 	string.push("!");
-	
-	
 	console.log('Hello. My name is Adam' + string.join(''));
 	alert('Hello. My name is Adam' + string.join(''));
 	}
 }
 	
 }
-
-
-
-
 
 //exercise 4
 

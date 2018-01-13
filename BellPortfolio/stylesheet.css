@@ -134,6 +134,10 @@ ul, ol {
 	font-size: 17px;
 }
 
+body {
+	font-family: arial;
+}
+
 .images{
 	display: flex;
 	flex-wrap: wrap;
